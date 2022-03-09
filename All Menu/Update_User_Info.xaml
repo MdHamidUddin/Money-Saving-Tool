@@ -1,0 +1,43 @@
+﻿<Window x:Class="Money_Savings_Tool.All_Menu.Update_User_Info"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Money_Savings_Tool.All_Menu"
+        mc:Ignorable="d"
+        Title="Update_User_Info" Height="550" Width="945">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <TextBox  Name="TextName" HorizontalAlignment="Left" Height="35" Margin="155,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="225" FontSize="18" FontFamily="Comic Sans MS"  BorderThickness="0,0,0,1"/>
+        <TextBox  Name="TextPhone" HorizontalAlignment="Left" Height="35" Margin="155,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="225" FontSize="18" FontFamily="Comic Sans MS" BorderThickness="0,0,0,1"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="106,92,0,0" VerticalAlignment="Top" Width="115" Height="35" FontSize="18" FontFamily="Comic Sans MS"/>
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="106,169,0,0" VerticalAlignment="Top" Width="115" Height="35" FontSize="18" FontFamily="Comic Sans MS"/>
+        <Button Content="Submit" HorizontalAlignment="Left" Margin="239,290,0,0" VerticalAlignment="Top" Width="141" Height="40" FontSize="18" FontFamily="Comic Sans MS" Background="{x:Null}" Click="Submit_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="141" Height="40" FontSize="18" FontFamily="Comic Sans MS" Background="{x:Null}" Click="Back_Click" >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <StackPanel HorizontalAlignment="Left" Height="200" Margin="5,345,0,-26" VerticalAlignment="Top" Width="930" RenderTransformOrigin="0.546,0.451">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="/Money_Savings_Tool;component/u2222se.png"/>
+            </StackPanel.Background>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="355" Margin="585,10,0,0" VerticalAlignment="Top" Width="345">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="/Money_Savings_Tool;component/sign.jpg"/>
+            </StackPanel.Background>
+        </StackPanel>
+
+    </Grid>
+</Window>

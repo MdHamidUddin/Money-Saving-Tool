@@ -1,0 +1,115 @@
+﻿<Window x:Class="Money_Savings_Tool.All_Menu.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Money_Savings_Tool.All_Menu"
+        mc:Ignorable="d"
+        Title="Settings" Height="550" Width="945">
+    <Grid Name="grid">
+        <Button Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Height="25" Background="{x:Null}" BorderThickness="0" FontFamily="Comic Sans MS" Click="Back">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Change Password" HorizontalAlignment="Left" Margin="165,170,0,0" VerticalAlignment="Top" Width="212" Height="37" Background="{x:Null}" BorderThickness="0,0,0,3" FontFamily="Comic Sans MS" FontSize="18" Click="Change_Password_Button" RenderTransformOrigin="0.992,0.859">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+
+        </Button>
+        <Image x:Name="ImageBox"  Stretch="Uniform" HorizontalAlignment="Left" Height="228" Margin="603,74,0,0" VerticalAlignment="Top" Width="283" >
+            <Image.Source>
+                <BitmapImage   UriSource="D:\Money_Savings_Tool\Media\Default pic.png" />
+            </Image.Source>
+        </Image>
+        <Button x:Name="Update_BTN"  Content="Update" HorizontalAlignment="Left" Margin="655,333,0,0" VerticalAlignment="Top" Width="128" Height="27" Click="Update_Picture">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Stop Music" HorizontalAlignment="Left" Margin="161,311,0,0" VerticalAlignment="Top" Width="212" Height="37" Background="{x:Null}" BorderThickness="0,0,0,3" FontFamily="Comic Sans MS" FontSize="18" RenderTransformOrigin="0.992,0.859" Click="Media_Settings">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.487"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+
+        </Button>
+        <Button Content="Play Music" HorizontalAlignment="Left" Margin="165,241,0,0" VerticalAlignment="Top" Width="212" Height="37" Background="{x:Null}" BorderThickness="0,0,0,3" FontFamily="Comic Sans MS" FontSize="18" RenderTransformOrigin="0.992,0.859" Click="PlayMusic" >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+
+        </Button>
+        <TextBox HorizontalAlignment="Left" Height="48" Margin="339,231,0,0" IsReadOnly="True" TextWrapping="Wrap"  BorderThickness="3,3,3,3"  VerticalAlignment="Top" Width="170" RenderTransformOrigin="0.5,0.5">
+            <TextBox.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </TextBox.Resources>
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="89.825"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Button Content="+" HorizontalAlignment="Left" Margin="400,173,0,0" VerticalAlignment="Top" Width="46" Height="44" Background="{x:Null}" BorderThickness="3,1,2,5" FontFamily="Comic Sans MS" FontSize="30" RenderTransformOrigin="0.992,0.859"  FontWeight="Bold" Click="Volume_Up_Click" >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="60"/>
+                </Style>
+            </Button.Resources>
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-358.83"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+
+        </Button>
+        <Button Content="-" HorizontalAlignment="Left" Margin="400,298,0,0" VerticalAlignment="Top" Width="46" Height="44" Background="{x:Null}" BorderThickness="3,1,2,5" FontFamily="Comic Sans MS" FontSize="30" RenderTransformOrigin="0.992,0.859" FontWeight="Bold" Click="Volume_Down_Click" >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="60"/>
+                </Style>
+            </Button.Resources>
+
+        </Button>
+        <Button Content="Update Information" HorizontalAlignment="Left" Margin="165,106,0,0" VerticalAlignment="Top" Width="212" Height="37" Background="{x:Null}" BorderThickness="0,0,0,3" FontFamily="Comic Sans MS" FontSize="18"  RenderTransformOrigin="0.992,0.859" Click="Button_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+
+        </Button>
+        <StackPanel HorizontalAlignment="Left" Height="150" Margin="-160,400,-53,-31" VerticalAlignment="Top" Width="1150">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="/Money_Savings_Tool;component/u2222se.png"/>
+            </StackPanel.Background>
+        </StackPanel>
+
+    </Grid>
+</Window>

@@ -1,0 +1,62 @@
+﻿<Window x:Class="Money_Savings_Tool.Lend_Money"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Money_Savings_Tool"
+        mc:Ignorable="d"
+        Title="Lend_Money" Height="550" Width="945">
+    <Grid>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="39,69,0,0" VerticalAlignment="Top" Height="36" Width="105" FontSize="16" FontFamily="Comic Sans MS"/>
+        <Label Content="Amount" HorizontalAlignment="Left" Margin="39,128,0,0" VerticalAlignment="Top" Height="36" Width="105" FontSize="16" FontFamily="Comic Sans MS"/>
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="39,242,0,0" VerticalAlignment="Top" Height="36" Width="105" FontSize="16" FontFamily="Comic Sans MS"/>
+        <Label Content="Short Note" HorizontalAlignment="Left" Margin="36,189,0,0" VerticalAlignment="Top" Height="36" Width="105" FontSize="16" FontFamily="Comic Sans MS"/>
+        <Label Content="Lending Money" HorizontalAlignment="Left" Margin="349,29,0,0" VerticalAlignment="Top" Height="43" Width="216" FontSize="20" FontFamily="Comic Sans MS"/>
+        <TextBox Name="name" HorizontalAlignment="Left" Height="28" Margin="97,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" FontSize="16" FontFamily="Comic Sans MS" BorderThickness="0,0,0,1" BorderBrush="#FFD30447" ClipToBounds="True"/>
+        <TextBox Name="amount" HorizontalAlignment="Left" Height="28" Margin="97,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" FontSize="16" FontFamily="Comic Sans MS" BorderThickness="0,0,0,1" BorderBrush="#FFD30447" ClipToBounds="True"/>
+        <TextBox Name="note" HorizontalAlignment="Left" Height="28" Margin="97,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" FontSize="16" FontFamily="Comic Sans MS" BorderThickness="0,0,0,1" BorderBrush="#FFD30447" ClipToBounds="True"/>
+        <TextBox Name="phone1" HorizontalAlignment="Left" Height="28" Margin="97,272,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" FontSize="16" FontFamily="Comic Sans MS" BorderThickness="0,0,0,1" BorderBrush="#FFD30447" ClipToBounds="True"/>
+        <Button Content="Create Event" HorizontalAlignment="Left" Margin="97,325,0,0" VerticalAlignment="Top" Width="183" Height="30" Background="{x:Null}" FontSize="16" FontFamily="Comic Sans MS" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" BorderThickness="0,0,0,1" Click="Create_Event_Button">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Update or Delete Old Event" HorizontalAlignment="Left" Margin="67,370,0,0" VerticalAlignment="Top" Width="243" Height="31" Background="{x:Null}" FontSize="16" FontFamily="Comic Sans MS" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" BorderThickness="0,0,0,1" Click="Update_Event_Button">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="2,2,0,0" VerticalAlignment="Top" Width="110" Height="31" Background="{x:Null}" FontSize="16" FontFamily="Comic Sans MS" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" Padding="0,0,0,1" BorderThickness="0,0,0,1" Click="Back_Button" RenderTransformOrigin="0.482,1.548">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Label Name="BlankName" Content="" HorizontalAlignment="Left" Margin="296,91,0,0" VerticalAlignment="Top" Height="36" Width="229" FontSize="16" FontFamily="Comic Sans MS"/>
+        <Label  Name="BlankAmount" Content="" HorizontalAlignment="Left" Margin="296,148,0,0" VerticalAlignment="Top" Height="36" Width="229" FontSize="16" FontFamily="Comic Sans MS"/>
+        <Label Name="BlankNote" Content="" HorizontalAlignment="Left" Margin="296,212,0,0" VerticalAlignment="Top" Height="36" Width="229" FontSize="16" FontFamily="Comic Sans MS"/>
+        <Label Name="BlankPhone" Content="" HorizontalAlignment="Left" Margin="296,264,0,0" VerticalAlignment="Top" Height="36" Width="229" FontSize="16" FontFamily="Comic Sans MS"/>
+        <Label x:Name="Date_Time" Content="Date Time "  FontSize="18" HorizontalAlignment="Left" Margin="695,5,0,0" VerticalAlignment="Top" Width="205" FontFamily="Comic Sans MS" Foreground="#FFD30447"/>
+        <StackPanel HorizontalAlignment="Left" Height="100" Margin="0,440,0,-21" VerticalAlignment="Top" Width="285">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="u2222se - Copy.png"/>
+            </StackPanel.Background>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="100" Margin="290,440,0,-21" VerticalAlignment="Top" Width="270">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="u2222se - Copy.png"/>
+            </StackPanel.Background>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="100" Margin="575,440,0,-21" VerticalAlignment="Top" Width="275">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="u2222se - Copy.png"/>
+            </StackPanel.Background>
+        </StackPanel>
+
+    </Grid>
+</Window>

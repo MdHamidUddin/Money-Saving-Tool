@@ -1,0 +1,18 @@
+﻿<Window x:Class="Money_Savings_Tool.All_Menu.Help"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Money_Savings_Tool.All_Menu"
+        mc:Ignorable="d"
+        Title="Help" Height="550" Width="945">
+    <Grid  Background="White">
+        <DockPanel HorizontalAlignment="Left" Height="373" LastChildFill="False" Margin="134,64,0,0" VerticalAlignment="Top" Width="659">
+            <DockPanel.Background>
+                <ImageBrush ImageSource="Help.png"/>
+            </DockPanel.Background>
+           
+        </DockPanel>
+        <Button Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="97" Height="36" Background="{x:Null}" BorderThickness="0" FontFamily="Comic Sans MS" Click="Back" FontSize="16" Margin="-4,0,0,0"/>
+    </Grid>
+</Window>

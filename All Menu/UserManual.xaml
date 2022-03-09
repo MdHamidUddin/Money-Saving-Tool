@@ -1,0 +1,94 @@
+﻿<Window x:Class="Money_Savings_Tool.All_Menu.UserManual"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Money_Savings_Tool.All_Menu"
+        mc:Ignorable="d"
+        Title="UserManual" Height="550" Width="945">
+    <Grid>
+
+        <Button Content="Close" HorizontalAlignment="Left" Margin="408,461,0,0" VerticalAlignment="Top" Width="101" Height="32" Background="{x:Null}" FontFamily="Comic Sans MS" FontSize="16" BorderThickness="0" Click="Button_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <RichTextBox  HorizontalAlignment="Left" Height="425" Margin="22,25,0,0" VerticalAlignment="Top" Width="888" Background="{x:Null}" FontFamily="Comic Sans MS" BorderThickness="0" IsReadOnly="True">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="Welcome to "/>
+                    <Run Foreground="#FFF37F09" FontWeight="Bold" FontSize="14" Text="The Money Savings Tools"/>
+                    <Run FontWeight="Bold" FontSize="14" Text=". Version: 1.0.2020. "/>
+                    <Run Text="Here you can access your account by your given password, where you can enjoy all the latest features of our system.  "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="For easy use of our system, we generate a simple user guide for all our application features.  "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Sign Up :" TextDecorations="Underline"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Before Sign-In, you have to create an account to access all the features, and you have to give all the information in the registration form. Then you can "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="access your account by your email address and your assigned password.  "/>
+                </Paragraph>
+                <Paragraph LineHeight="11" TextAlignment="Center">
+                    <Run Foreground="#FFE00808" FontWeight="Bold" Text="** After Registration in your account, if you forgot your password, The user has to confirm some question answers correctly. After that, the User can gain the  previous password. ** "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Add Money :" TextDecorations="Underline"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="In this feature, a user can manually add his/her money where a user can maintain his/her other transaction.  "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Expenses :" TextDecorations="Underline"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="A User Can update his/her daily expenses with short notes. "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Due Balance :" TextDecorations="Underline"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="In this feature, the user can easily calculate "/>
+                    <Run FontWeight="Bold" Text="lending Money"/>
+                    <Run Text=" to another person by noting some notes. If a user "/>
+                    <Run FontWeight="Bold" Text="Borrows money "/>
+                    <Run Text="from another person,"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text=" he/she can note down the amount with short messages. After that, he can check the transaction history with the system date and amount with notes.  "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Set Savings Goal :" TextDecorations="Underline"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="The User can set his/her own goal to save money on daily days, where the User can set an amount to save as a goal. After selecting the amount, the"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="User can add money to fulfill his/her goal. The User can see the graphical view to see how much he/she near to achieve the goal.  "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Transaction History :" TextDecorations="Underline"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="The User can easily understand the whole history of his/her expenses and add money amount into the account.  "/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" Text="Change Password :" TextDecorations="Underline"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="If a user can change his/her password for the security issue, the system can give the option to change the password.  "/>
+                </Paragraph>
+                <Paragraph TextAlignment="Center">
+                    <Run Foreground="#FFE06508" FontWeight="Bold" Text="     *Thank You for Using Our System. Further query contact with us* "/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+    </Grid>
+</Window>

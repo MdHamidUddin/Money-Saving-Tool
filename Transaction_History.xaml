@@ -1,0 +1,33 @@
+﻿<Window x:Class="Money_Savings_Tool.Transaction_History"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Money_Savings_Tool"
+        mc:Ignorable="d"
+        Title="Transaction_History" Height="550" Width="945">
+    <Grid Margin="0,0,3.4,-110.2">
+        <DataGrid Name="dbgv" CanUserAddRows="False" IsReadOnly="True" HorizontalAlignment="Left" Height="169" Margin="100,82,0,0" Width="750" FontFamily="Comic Sans MS" FontSize="24" RowBackground="LightGray" VerticalAlignment="Top"/>
+        <DataGrid Name="dbgv2" CanUserAddRows="False" IsReadOnly="True" HorizontalAlignment="Left" Height="109" Margin="260,355,0,0" VerticalAlignment="Top" Width="400" FontFamily="Comic Sans MS" FontSize="24"  RowBackground="LightGray" />
+        <Label Content="*Transcation History*" FontSize="25" HorizontalAlignment="Center" Margin="335,32,334.4,0" VerticalAlignment="Top" RenderTransformOrigin="-0.643,0.629" Width="269" FontFamily="Comic Sans MS"/>
+        <Label Content="*Current Balance*" FontSize="25" HorizontalAlignment="Center" Margin="345,295,338.6,0" VerticalAlignment="Top" RenderTransformOrigin="-0.643,0.629" Width="250" FontFamily="Comic Sans MS"/>
+        <Button Content="Back" HorizontalAlignment="Left" FontSize="18" FontFamily="Comic Sans MS" VerticalAlignment="Top" Width="95" Height="30" Background="{x:Null}" Click="Button_Click" Margin="5,10,0,0" RenderTransformOrigin="0.684,0.667">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <StackPanel HorizontalAlignment="Left" Height="155" Margin="700,365,-226.4,0" VerticalAlignment="Top" Width="460">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="u2222se.png"/>
+            </StackPanel.Background>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="155" Margin="-340,365,0,0" VerticalAlignment="Top" Width="545">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="u2222se.png"/>
+            </StackPanel.Background>
+        </StackPanel>
+
+    </Grid>
+</Window>
