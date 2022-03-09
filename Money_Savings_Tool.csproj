@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E4BB0188-9570-498C-A287-801EBFCA9BBB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Money_Savings_Tool</RootNamespace>
+    <AssemblyName>Money_Savings_Tool</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AudioSwitcher.AudioApi, Version=3.0.0.209, Culture=neutral, PublicKeyToken=fda5729e2db3a64f, processorArchitecture=MSIL">
+      <HintPath>packages\AudioSwitcher.AudioApi.3.0.0\lib\net40\AudioSwitcher.AudioApi.dll</HintPath>
+    </Reference>
+    <Reference Include="AudioSwitcher.AudioApi.CoreAudio, Version=3.0.0.209, Culture=neutral, PublicKeyToken=fda5729e2db3a64f, processorArchitecture=MSIL">
+      <HintPath>packages\AudioSwitcher.AudioApi.CoreAudio.3.0.0.1\lib\net40\AudioSwitcher.AudioApi.CoreAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Client, Version=2.2.0.0, Culture=neutral, PublicKeyToken=04a59ca9b0273830, processorArchitecture=MSIL">
+      <HintPath>packages\Google.GData.Client.2.2.0.0\lib\Google.GData.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Extensions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=0b4c5df2ebf20876, processorArchitecture=MSIL">
+      <HintPath>packages\Google.GData.Extensions.2.2.0.0\lib\Google.GData.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignColors, Version=1.2.7.1979, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialDesignColors.1.2.7\lib\net45\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.0.5.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.4.0.5\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="All Menu\About.xaml.cs">
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="All Menu\Help.xaml.cs">
+      <DependentUpon>Help.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="All Menu\Settings.xaml.cs">
+      <DependentUpon>Settings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="All Menu\Update_User_Info.xaml.cs">
+      <DependentUpon>Update_User_Info.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="All Menu\UserManual.xaml.cs">
+      <DependentUpon>UserManual.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Borrow_Money.xaml.cs">
+      <DependentUpon>Borrow_Money.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cash_In.xaml.cs">
+      <DependentUpon>Cash_In.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Change_Password.xaml.cs">
+      <DependentUpon>Change_Password.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Check_Due_History.xaml.cs">
+      <DependentUpon>Check_Due_History.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Due_Balance.xaml.cs">
+      <DependentUpon>Due_Balance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Expense.xaml.cs">
+      <DependentUpon>Expense.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forgot_Password.xaml.cs">
+      <DependentUpon>Forgot_Password.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Homepage.xaml.cs">
+      <DependentUpon>Homepage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Lend_Money.xaml.cs">
+      <DependentUpon>Lend_Money.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Savings_Goal.xaml.cs">
+      <DependentUpon>Savings_Goal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Savings_Goals_History.xaml.cs">
+      <DependentUpon>Savings_Goals_History.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sign_Up.xaml.cs">
+      <DependentUpon>Sign_Up.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Test.xaml.cs">
+      <DependentUpon>Test.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction_History.xaml.cs">
+      <DependentUpon>Transaction_History.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Borrow_Money.xaml.cs">
+      <DependentUpon>Update_Borrow_Money.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Lend_Money.xaml.cs">
+      <DependentUpon>Update_Lend_Money.xaml</DependentUpon>
+    </Compile>
+    <Page Include="All Menu\About.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="All Menu\Help.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="All Menu\Settings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="All Menu\Update_User_Info.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="All Menu\UserManual.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Borrow_Money.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cash_In.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Change_Password.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Check_Due_History.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Due_Balance.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Expense.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forgot_Password.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Homepage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Lend_Money.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Login.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Component1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component1.Designer.cs">
+      <DependentUpon>Component1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseConnection.cs" />
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Savings_Goal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Savings_Goals_History.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sign_Up.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Test.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Transaction_History.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Update_Borrow_Money.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Update_Lend_Money.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="rsz_mst_logo-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Ways-To-Start-Saving-Money.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="use.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="u2222se.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="sign.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="u2222se - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="All Menu\gggovebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="All Menu\circle-cropped %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="All Menu\rudro_3_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="All Menu\sharnaemovebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="mst logo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="All Menu\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Default pic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="144-1446766_lending-money-man-pointing-in-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="4-40576_person-giving-money-to-someone-clipart-giving-money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="4-40576_person-giving-money-to-someone-clipart-giving-money-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="BF-AA245_FAMILY_DV_20101126182204-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="82-823091_png-file-money-cash-icon-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="82-823091_png-file-money-cash-icon-png-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="color-hand-with-bills-cash-money-currency-vector-19891041-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="360_F_357942153_7q9BkC2DMBRHXcIBpDzcG0C8Svzvydqw-removebg-preview.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

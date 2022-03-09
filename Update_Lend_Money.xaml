@@ -1,0 +1,54 @@
+﻿<Window x:Class="Money_Savings_Tool.Update_Lend_Money"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Money_Savings_Tool"
+        mc:Ignorable="d"
+        Title="Update_Lend_Money" Height="550" Width="945">
+    <Grid>
+        <ComboBox Name="MyComboBox" HorizontalAlignment="Left" Margin="185,229,0,0" VerticalAlignment="Top" Width="108" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="16" FontFamily="Comic Sans MS">
+            <ComboBoxItem Background="#FFF6F67E" Content="Give"></ComboBoxItem>
+            <ComboBoxItem  Background="#FF30F96C" Content="Take" IsSelected="true"></ComboBoxItem>
+            <ComboBox Width="120"/>
+        </ComboBox>
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="55,105,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Comic Sans MS" Width="63"/>
+        <Label Content="Amount" HorizontalAlignment="Left" Margin="55,156,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Comic Sans MS" Width="82"/>
+        <TextBox Name="phone1" HorizontalAlignment="Left" Height="22" Margin="102,134,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="196" FontSize="16" FontFamily="Comic Sans MS" BorderThickness="0,0,0,1" BorderBrush="#FFD30447"/>
+        <TextBox Name="amount" HorizontalAlignment="Left" Height="22" Margin="102,187,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="196" FontSize="16" FontFamily="Comic Sans MS" BorderThickness="0,0,0,1" BorderBrush="#FFD30447"/>
+        <Label Content="Select Option" HorizontalAlignment="Left" Margin="68,222,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Comic Sans MS" Width="145"/>
+        <Label Content="Want to delete any event?" HorizontalAlignment="Left" Margin="68,352,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Comic Sans MS" Width="245"/>
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="70,382,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Comic Sans MS" Width="63"/>
+        <TextBox Name="phone2" HorizontalAlignment="Left" Height="22" Margin="117,412,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="196" FontSize="16" FontFamily="Comic Sans MS" BorderThickness="0,0,0,1" BorderBrush="#FFD30447"/>
+        <Button Content="Update" HorizontalAlignment="Left" Margin="185,279,0,0" VerticalAlignment="Top" Width="98" Height="27" Background="{x:Null}" FontSize="16" FontFamily="Comic Sans MS" BorderThickness="0,0,0,1" Click="Update_Event_Button">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="185,450,0,0" VerticalAlignment="Top" Width="98" Height="27" Background="{x:Null}" FontSize="16" FontFamily="Comic Sans MS" BorderThickness="0,0,0,1" Click="Delete_Event_Button">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="0,4,0,0" VerticalAlignment="Top" Width="98" Height="27" Background="{x:Null}" FontSize="16" FontFamily="Comic Sans MS" BorderThickness="0,0,0,1" Click="Back_Button">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Label Name="UpdatePhone" Content="" HorizontalAlignment="Left" Margin="312,124,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Comic Sans MS" Width="205"/>
+        <Label Name="UpdateAmount" Content="" HorizontalAlignment="Left" Margin="312,177,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Comic Sans MS" Width="205"/>
+        <Label Name="DeletePhone" Content="" HorizontalAlignment="Left" Margin="318,402,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Comic Sans MS" Width="361"/>
+        <DataGrid Name="gridView" HorizontalAlignment="Left" Height="121" Margin="535,105,0,0" VerticalAlignment="Top" Width="375"/>
+        <StackPanel HorizontalAlignment="Left" Height="275" Margin="770,255,-238,-11" VerticalAlignment="Top" Width="405">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="u2222se - Copy.png"/>
+            </StackPanel.Background>
+        </StackPanel>
+    </Grid>
+</Window>

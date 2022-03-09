@@ -1,0 +1,51 @@
+﻿<Window x:Class="Money_Savings_Tool.All_Menu.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Money_Savings_Tool.All_Menu"
+        mc:Ignorable="d"
+        Title="About" Height="550" Width="945">
+    <Grid>
+
+        <Label Content="Application Developers" HorizontalAlignment="center" Margin="356,38,334.4,0" VerticalAlignment="Top" Height="39" Width="248" FontFamily="Comic Sans MS" FontSize="18" Foreground="#FF06A5BC"/>
+        <Label Content="Md. Hamid Uddin&#xD;&#xA;" HorizontalAlignment="center" Margin="228,107,508.4,0" VerticalAlignment="Top" Height="33" Width="202" FontFamily="Comic Sans MS" FontSize="18" Foreground="#FF064D6C"/>
+        <Label Content="BSc in Computer Science &amp; Engineering&#xD;&#xA;American International University-Bangladesh&#xD;&#xA;Instructor at Booflixo Limited&#xD;&#xA;" HorizontalAlignment="center" Margin="238,138,380.4,0" VerticalAlignment="Top" Height="59" Width="320" FontFamily="Comic Sans MS" Foreground="#FF7F374C"/>
+        <Label Content="Rifat Al Mamun Rudro" HorizontalAlignment="center" Margin="447,233,202.4,0" VerticalAlignment="Top" Height="29" Width="289" FontFamily="Comic Sans MS" FontSize="18" Foreground="#FF059C32"/>
+        <Label Content="BSc in Computer Science &amp; Engineering&#xA;American International University-Bangladesh&#xD;&#xA;Instructor at Booflixo Limited" HorizontalAlignment="center" Margin="453,262,165.4,0" VerticalAlignment="Top" Height="59" Width="320" FontFamily="Comic Sans MS" Foreground="#FF7F374C"/>
+        <Label Content="Tanzina Azmarin Sharna" HorizontalAlignment="center" Margin="211,380,431.4,0" VerticalAlignment="Top" Height="51" Width="296" FontFamily="Comic Sans MS" FontSize="18" Foreground="#FFA906A5"/>
+        <Label Content="BSc in Computer Science &amp; Engineering&#xA;American International University-Bangladesh&#xD;&#xA;Owner at Boshon Boithak&#xA;" HorizontalAlignment="center" Margin="217,409,401.4,0" VerticalAlignment="Top" Height="82" Width="320" FontFamily="Comic Sans MS" Foreground="#FF7F374C"/>
+        <Label Content="Three Amigos" HorizontalAlignment="center" Margin="774,467,27,0" VerticalAlignment="Top" Height="33" Width="136" FontFamily="Comic Sans MS" FontSize="16" Foreground="#FF065735"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="3,10,0,0" VerticalAlignment="Top" Width="92" Background="{x:Null}" BorderThickness="0,0,0,1" Height="27" FontFamily="Comic Sans MS" Click="Back">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <DockPanel HorizontalAlignment="Left" Height="157" LastChildFill="False" Margin="68,70,0,0" VerticalAlignment="Top" Width="155" RenderTransformOrigin="0.5,0.5">
+            <DockPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-8.804"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </DockPanel.RenderTransform>
+            <DockPanel.Background>
+                <ImageBrush ImageSource="gggovebg-preview.png"/>
+            </DockPanel.Background>
+        </DockPanel>
+        <DockPanel HorizontalAlignment="Left" Height="159" LastChildFill="False" Margin="744,173,0,0" VerticalAlignment="Top" Width="152">
+            <DockPanel.Background>
+                <ImageBrush ImageSource="rudro_3_-removebg-preview.png"/>
+            </DockPanel.Background>
+        </DockPanel>
+        <DockPanel HorizontalAlignment="Left" Height="144" LastChildFill="False" Margin="55,352,0,0" VerticalAlignment="Top" Width="136">
+            <DockPanel.Background>
+                <ImageBrush ImageSource="sharnaemovebg-preview.png"/>
+            </DockPanel.Background>
+        </DockPanel>
+
+    </Grid>
+</Window>

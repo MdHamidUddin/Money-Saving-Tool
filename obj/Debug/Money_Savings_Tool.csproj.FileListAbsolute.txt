@@ -1,0 +1,146 @@
+D:\Program\Practise\C#\Money_Savings_Tool\bin\Debug\Money_Savings_Tool.exe.config
+D:\Program\Practise\C#\Money_Savings_Tool\bin\Debug\Money_Savings_Tool.exe
+D:\Program\Practise\C#\Money_Savings_Tool\bin\Debug\Money_Savings_Tool.pdb
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\App.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Money_Savings_Tool_MarkupCompile.cache
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Money_Savings_Tool_MarkupCompile.lref
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Money_Savings_Tool.g.resources
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Money_Savings_Tool.Properties.Resources.resources
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Money_Savings_Tool.csproj.GenerateResource.cache
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Money_Savings_Tool.csproj.CoreCompileInputs.cache
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Money_Savings_Tool.exe
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Money_Savings_Tool.pdb
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Login.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Login.baml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Sign_Up.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Sign_Up.baml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Homepage.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Homepage.baml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Cash_In.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Cash_In.baml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Expense.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Expense.baml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Transaction_History.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Transaction_History.baml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Change_Password.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Change_Password.baml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Due_Balance.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Due_Balance.baml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Lend_Money.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Lend_Money.baml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Update_Lend_Money.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Update_Lend_Money.baml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Borrow_Money.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Borrow_Money.baml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Update_Borrow_Money.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Update_Borrow_Money.baml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Check_Due_History.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Check_Due_History.baml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Forgot_Password.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Forgot_Password.baml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Test.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Test.baml
+D:\Program\Practise\C#\Money_Savings_Tool\bin\Debug\MaterialDesignColors.dll
+D:\Program\Practise\C#\Money_Savings_Tool\bin\Debug\MaterialDesignColors.pdb
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Money_Savings_Tool.csproj.CopyComplete
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\All Menu\About.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\All Menu\UserManual.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\All Menu\About.baml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\All Menu\UserManual.baml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Money_Savings_Tool.csprojAssemblyReference.cache
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\All Menu\Help.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\All Menu\Help.baml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\All Menu\Settings.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\All Menu\Settings.baml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Savings_Goal.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Savings_Goal.baml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Savings_Goals_History.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\Savings_Goals_History.baml
+D:\Program\Practise\C#\Money_Savings_Tool\bin\Debug\LiveCharts.dll
+D:\Program\Practise\C#\Money_Savings_Tool\bin\Debug\LiveCharts.Wpf.dll
+D:\Program\Practise\C#\Money_Savings_Tool\bin\Debug\LiveCharts.pdb
+D:\Program\Practise\C#\Money_Savings_Tool\bin\Debug\LiveCharts.xml
+D:\Program\Practise\C#\Money_Savings_Tool\bin\Debug\LiveCharts.Wpf.pdb
+D:\Program\Practise\C#\Money_Savings_Tool\bin\Debug\LiveCharts.Wpf.xml
+D:\Program\Practise\C#\Money_Savings_Tool\bin\Debug\AudioSwitcher.AudioApi.CoreAudio.dll
+D:\Program\Practise\C#\Money_Savings_Tool\bin\Debug\AudioSwitcher.AudioApi.dll
+D:\Program\Practise\C#\Money_Savings_Tool\bin\Debug\Google.GData.Client.dll
+D:\Program\Practise\C#\Money_Savings_Tool\bin\Debug\Google.GData.Extensions.dll
+D:\Program\Practise\C#\Money_Savings_Tool\bin\Debug\Newtonsoft.Json.dll
+D:\Program\Practise\C#\Money_Savings_Tool\bin\Debug\Newtonsoft.Json.pdb
+D:\Program\Practise\C#\Money_Savings_Tool\bin\Debug\Newtonsoft.Json.xml
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\All Menu\Update_User_Info.g.cs
+D:\Program\Practise\C#\Money_Savings_Tool\obj\Debug\All Menu\Update_User_Info.baml
+D:\Money_Savings_Tool\bin\Debug\Money_Savings_Tool.exe.config
+D:\Money_Savings_Tool\bin\Debug\Money_Savings_Tool.exe
+D:\Money_Savings_Tool\bin\Debug\Money_Savings_Tool.pdb
+D:\Money_Savings_Tool\bin\Debug\AudioSwitcher.AudioApi.CoreAudio.dll
+D:\Money_Savings_Tool\bin\Debug\AudioSwitcher.AudioApi.dll
+D:\Money_Savings_Tool\bin\Debug\Google.GData.Client.dll
+D:\Money_Savings_Tool\bin\Debug\Google.GData.Extensions.dll
+D:\Money_Savings_Tool\bin\Debug\LiveCharts.dll
+D:\Money_Savings_Tool\bin\Debug\LiveCharts.Wpf.dll
+D:\Money_Savings_Tool\bin\Debug\MaterialDesignColors.dll
+D:\Money_Savings_Tool\bin\Debug\Newtonsoft.Json.dll
+D:\Money_Savings_Tool\bin\Debug\LiveCharts.pdb
+D:\Money_Savings_Tool\bin\Debug\LiveCharts.xml
+D:\Money_Savings_Tool\bin\Debug\LiveCharts.Wpf.pdb
+D:\Money_Savings_Tool\bin\Debug\LiveCharts.Wpf.xml
+D:\Money_Savings_Tool\bin\Debug\MaterialDesignColors.pdb
+D:\Money_Savings_Tool\bin\Debug\Newtonsoft.Json.pdb
+D:\Money_Savings_Tool\bin\Debug\Newtonsoft.Json.xml
+D:\Money_Savings_Tool\obj\Debug\Money_Savings_Tool.csprojAssemblyReference.cache
+D:\Money_Savings_Tool\obj\Debug\All Menu\About.g.cs
+D:\Money_Savings_Tool\obj\Debug\All Menu\Help.g.cs
+D:\Money_Savings_Tool\obj\Debug\All Menu\Settings.g.cs
+D:\Money_Savings_Tool\obj\Debug\All Menu\Update_User_Info.g.cs
+D:\Money_Savings_Tool\obj\Debug\All Menu\UserManual.g.cs
+D:\Money_Savings_Tool\obj\Debug\Borrow_Money.g.cs
+D:\Money_Savings_Tool\obj\Debug\Cash_In.g.cs
+D:\Money_Savings_Tool\obj\Debug\Change_Password.g.cs
+D:\Money_Savings_Tool\obj\Debug\Check_Due_History.g.cs
+D:\Money_Savings_Tool\obj\Debug\Due_Balance.g.cs
+D:\Money_Savings_Tool\obj\Debug\Expense.g.cs
+D:\Money_Savings_Tool\obj\Debug\Forgot_Password.g.cs
+D:\Money_Savings_Tool\obj\Debug\Homepage.g.cs
+D:\Money_Savings_Tool\obj\Debug\Lend_Money.g.cs
+D:\Money_Savings_Tool\obj\Debug\Login.g.cs
+D:\Money_Savings_Tool\obj\Debug\Savings_Goal.g.cs
+D:\Money_Savings_Tool\obj\Debug\Savings_Goals_History.g.cs
+D:\Money_Savings_Tool\obj\Debug\Sign_Up.g.cs
+D:\Money_Savings_Tool\obj\Debug\Test.g.cs
+D:\Money_Savings_Tool\obj\Debug\Transaction_History.g.cs
+D:\Money_Savings_Tool\obj\Debug\Update_Borrow_Money.g.cs
+D:\Money_Savings_Tool\obj\Debug\Update_Lend_Money.g.cs
+D:\Money_Savings_Tool\obj\Debug\App.g.cs
+D:\Money_Savings_Tool\obj\Debug\Money_Savings_Tool_MarkupCompile.cache
+D:\Money_Savings_Tool\obj\Debug\Money_Savings_Tool_MarkupCompile.lref
+D:\Money_Savings_Tool\obj\Debug\All Menu\About.baml
+D:\Money_Savings_Tool\obj\Debug\All Menu\Help.baml
+D:\Money_Savings_Tool\obj\Debug\All Menu\Settings.baml
+D:\Money_Savings_Tool\obj\Debug\All Menu\Update_User_Info.baml
+D:\Money_Savings_Tool\obj\Debug\All Menu\UserManual.baml
+D:\Money_Savings_Tool\obj\Debug\Borrow_Money.baml
+D:\Money_Savings_Tool\obj\Debug\Cash_In.baml
+D:\Money_Savings_Tool\obj\Debug\Change_Password.baml
+D:\Money_Savings_Tool\obj\Debug\Check_Due_History.baml
+D:\Money_Savings_Tool\obj\Debug\Due_Balance.baml
+D:\Money_Savings_Tool\obj\Debug\Expense.baml
+D:\Money_Savings_Tool\obj\Debug\Forgot_Password.baml
+D:\Money_Savings_Tool\obj\Debug\Homepage.baml
+D:\Money_Savings_Tool\obj\Debug\Lend_Money.baml
+D:\Money_Savings_Tool\obj\Debug\Login.baml
+D:\Money_Savings_Tool\obj\Debug\Savings_Goal.baml
+D:\Money_Savings_Tool\obj\Debug\Savings_Goals_History.baml
+D:\Money_Savings_Tool\obj\Debug\Sign_Up.baml
+D:\Money_Savings_Tool\obj\Debug\Test.baml
+D:\Money_Savings_Tool\obj\Debug\Transaction_History.baml
+D:\Money_Savings_Tool\obj\Debug\Update_Borrow_Money.baml
+D:\Money_Savings_Tool\obj\Debug\Update_Lend_Money.baml
+D:\Money_Savings_Tool\obj\Debug\Money_Savings_Tool.g.resources
+D:\Money_Savings_Tool\obj\Debug\Money_Savings_Tool.Properties.Resources.resources
+D:\Money_Savings_Tool\obj\Debug\Money_Savings_Tool.csproj.GenerateResource.cache
+D:\Money_Savings_Tool\obj\Debug\Money_Savings_Tool.csproj.CoreCompileInputs.cache
+D:\Money_Savings_Tool\obj\Debug\Money_Savings_Tool.csproj.CopyComplete
+D:\Money_Savings_Tool\obj\Debug\Money_Savings_Tool.exe
+D:\Money_Savings_Tool\obj\Debug\Money_Savings_Tool.pdb

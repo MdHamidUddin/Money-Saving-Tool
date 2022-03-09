@@ -1,0 +1,65 @@
+﻿<Window x:Class="Money_Savings_Tool.Due_Balance"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Money_Savings_Tool"
+        mc:Ignorable="d"
+        Title="Due_Balance" Height="550" Width="945">
+    <Grid>
+        <Button Content="Lend Money" HorizontalAlignment="Left" Margin="358,154,0,0" VerticalAlignment="Top" Width="201" Height="44" Background="#FFC4D6CA" FontFamily="Comic Sans MS" FontSize="18" Click="Lend_Money_Button">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="28"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Borrow Money" HorizontalAlignment="Left" Margin="358,211,0,0" VerticalAlignment="Top" Width="201" Height="44" Background="#FFC4D6CA" FontFamily="Comic Sans MS" FontSize="18" Click="Borrow_Money_Button">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="28"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Check Details" HorizontalAlignment="Left" Margin="358,274,0,0" VerticalAlignment="Top" Width="201" Height="44" Background="#FFC4D6CA" FontFamily="Comic Sans MS" FontSize="18" Click="Check_History_Button">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="28"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="358,334,0,0" VerticalAlignment="Top" Width="201" Height="44" Background="#FFC4D6CA" FontFamily="Comic Sans MS" FontSize="18" Click="Button_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="28"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <StackPanel HorizontalAlignment="Left" Height="100" Margin="5,420,0,-1" VerticalAlignment="Top" Width="315">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="u2222se - Copy.png"/>
+            </StackPanel.Background>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="100" Margin="665,420,-33,-1" VerticalAlignment="Top" Width="305">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="u2222se - Copy.png"/>
+            </StackPanel.Background>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="100" Margin="320,420,0,-1" VerticalAlignment="Top" Width="345">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="u2222se - Copy.png"/>
+            </StackPanel.Background>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="200" Margin="660,180,0,0" VerticalAlignment="Top" Width="215">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="4-40576_person-giving-money-to-someone-clipart-giving-money-removebg-preview.png"/>
+            </StackPanel.Background>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="200" Margin="65,175,0,0" VerticalAlignment="Top" Width="165">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="BF-AA245_FAMILY_DV_20101126182204-removebg-preview.png"/>
+            </StackPanel.Background>
+        </StackPanel>
+
+    </Grid>
+</Window>

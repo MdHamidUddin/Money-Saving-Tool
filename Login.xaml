@@ -1,0 +1,68 @@
+﻿<Window x:Class="Money_Savings_Tool.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Money_Savings_Tool"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="945">
+    <Grid Background="White" Margin="0,-2,0.4,1.8" RenderTransformOrigin="0.306,0.534">
+        <TextBox Name="Email" HorizontalAlignment="Left" Height="34" Width="345" Margin="307,115,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="16" FontFamily="Comic Sans MS" Background="{x:Null}" BorderThickness="0,0,0,1" BorderBrush="#FFDA0CEB" />
+        <PasswordBox Name="Pass" HorizontalAlignment="Left" Height="34" Width="345" Margin="305,190,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Comic Sans MS" Background="{x:Null}" BorderThickness="0,0,0,1" BorderBrush="#FFDA0CEB"/>
+        <Label Content="Email" FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="263,93,0,0" Width="153" FontFamily="Comic Sans MS"/>
+        <Label Content="Password"  FontSize="15" HorizontalAlignment="Left" Margin="262,162,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS"/>
+        <Button Content="Sign In" FontSize="18" HorizontalAlignment="Left" Margin="479,241,0,0" VerticalAlignment="Top" Width="165" Height="45" Background="{x:Null}" Click="Sign_In_Button" FontFamily="Comic Sans MS" BorderThickness="0,0,0,3" FontWeight="Bold">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Label Content="on't"  FontSize="18" HorizontalAlignment="Left" Margin="332,291,0,0" VerticalAlignment="Top" Width="45" FontFamily="Comic Sans MS"/>
+        <Label Name="EmptyEmail" Content="" HorizontalAlignment="Left" FontSize="15" Margin="656,124,0,0" VerticalAlignment="Top" Width="213" FontFamily="Comic Sans MS"/>
+        <Label Name="EmptyPassword" Content="" HorizontalAlignment="Left" FontSize="15" Margin="657,194,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.887,0.778" Width="212" FontFamily="Comic Sans MS"/>
+        <Button Content="Sign Up" HorizontalAlignment="Left" FontSize="18" Margin="474,325,0,0" VerticalAlignment="Top" Width="170" Height="45" Background="{x:Null}" Click="Sign_Up_Button" FontFamily="Comic Sans MS" BorderThickness="0,0,0,3" FontWeight="Bold" RenderTransformOrigin="0.782,0.478">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Label Content="M" FontSize="36" HorizontalAlignment="Left" Margin="325,29,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" Background="{x:Null}" Foreground="#FFD30447"/>
+        <StackPanel Margin="0,376,21.6,-155.8" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="900">
+            <StackPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.302"/>
+                    <RotateTransform Angle="0.247"/>
+                    <TranslateTransform X="0.752" Y="0.003"/>
+                </TransformGroup>
+            </StackPanel.RenderTransform>
+            <StackPanel.Background>
+                <ImageBrush ImageSource="u2222se.png" Stretch="UniformToFill"/>
+            </StackPanel.Background>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="267" VerticalAlignment="Top" Width="257" Margin="0,61,0,0">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="rsz_mst_logo-removebg-preview.png"/>
+            </StackPanel.Background>
+        </StackPanel>
+        <Label Content="S" FontSize="36" HorizontalAlignment="Left" Margin="416,29,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" Foreground="#FFD30447"/>
+        <Label Content="oney" FontSize="25" HorizontalAlignment="Left" Margin="357,41,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS"/>
+        <Label Content="ool" FontSize="25" HorizontalAlignment="Left" Margin="531,43,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS"/>
+        <Label Content="avings" FontSize="25" HorizontalAlignment="Left" Margin="441,41,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS"/>
+        <Label Content="T" FontSize="36" HorizontalAlignment="Left" Margin="512,30,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" Foreground="#FFD30447" RenderTransformOrigin="0.233,0.635"/>
+        <Label Content="D" FontSize="36" HorizontalAlignment="Left" Margin="306,273,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" Foreground="#FFF4A908" RenderTransformOrigin="0.233,0.635"/>
+        <Label Content="Have Any Account? "  FontSize="18" HorizontalAlignment="Left" Margin="372,290,0,0" VerticalAlignment="Top" Width="300" FontFamily="Comic Sans MS"/>
+        <Button Name="Forgot_Password" Content="Forgot Password" FontSize="16" HorizontalAlignment="Left" Margin="278,241,0,0" VerticalAlignment="Top" Width="189" Height="45" Background="{x:Null}" FontFamily="Comic Sans MS" BorderThickness="0,0,0,0" FontWeight="Bold" Click="Forgot_Password_Click" Foreground="#FF642099">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="30"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Label Name="Date_Time" Content="Date Time "  FontSize="18" HorizontalAlignment="Left" Margin="733,5,0,0" VerticalAlignment="Top" Width="205" FontFamily="Comic Sans MS" Foreground="#FFD30447"/>
+
+    </Grid>
+</Window>
+    
